@@ -78,4 +78,4 @@ I run tabletop RPG sessions as a GM and I'm writing my own game system (the rule
 
 ## Contact
 
-[LinkedIn](https://www.linkedin.com/in/jakub-zar%C4%99ba-7a78311b0/) · jakubzareba99@gmail.com
+[LinkedIn](http://www.linkedin.com/in/jakubzareba-dev) · jakubzareba99@gmail.com
