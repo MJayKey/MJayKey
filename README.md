@@ -12,13 +12,13 @@ Most of my code is in private repos. If you're hiring and want to see some of it
 
 A platform for running tabletop RPG campaigns, in Polish and English. Live at [thedomedrealms.usermd.net](https://thedomedrealms.usermd.net)
 
-Players keep their character sheets here and arrange the panels however they want. There's a dice simulator that reads formulas from character stats, a world map, guilds with permissions, a wiki and choose-your-path stories.
+Players keep their character sheets here, arrange the panels however they want and can search through a whole sheet. There's a dice simulator that reads formulas from character stats, a world map with submaps and pins, guilds with permissions, a wiki, my rulebook and choose-your-path stories.
 
 Everything live runs on my own WebSocket server in Node.js: the battle map, dungeons, the guild scheme, character sheets and the GM table. Laravel signs the tickets with HMAC, and players only get the data they're meant to see.
 
 What I added this autumn:
 
-- A GM table. The GM sets up scenes with images, text, drawings and characters, and players watch it live on their own screens or on a TV.
+- A GM table. The GM sets up scenes with images, text, drawings and characters, and players watch it live on their own screens or on a TV. They can open their character sheet and the dice simulator in panels next to the table.
 - A guild scheme, which is a shared grid map up to 3 km wide. Several people can draw on it at once and the server checks every change against the user's role.
 - Guild expeditions with character fatigue, camp actions and a food and water calculator.
 - A new character sheet design. Sheets now save live in small changes, so other open tabs and people you share a sheet with see them right away.
@@ -31,22 +31,40 @@ About 370 tests (PHPUnit, node:test). Google and Discord login, 3 themes.
 `Laravel 12` `React 18` `Inertia.js` `Node.js` `MySQL` `Tailwind CSS`
 
 <p>
-  <img src="img/tdr-gm-table.jpg" alt="The Domed Realms: GM table" width="99%">
+  <img src="img/tdr-gm-table.jpg" alt="The Domed Realms: GM table, the GM's view" width="99%">
 </p>
 <p>
-  <img src="img/tdr-character-sheet-modern.jpg" alt="The Domed Realms: character sheet" width="49%">
+  <img src="img/tdr-character-sheets.jpg" alt="The Domed Realms: character sheet" width="99%">
+</p>
+<p>
   <img src="img/tdr-guild-scheme.jpg" alt="The Domed Realms: guild scheme editor" width="49%">
+  <img src="img/tdr-dungeon-session.jpg" alt="The Domed Realms: running a dungeon" width="49%">
 </p>
 <p>
-  <img src="img/tdr-world-map.jpg" alt="The Domed Realms: world map with pins" width="49%">
-  <img src="img/tdr-battle-map.jpg" alt="The Domed Realms: live battle map" width="49%">
-</p>
-<p>
-  <img src="img/tdr-dungeon-editor.jpg" alt="The Domed Realms: dungeon editor" width="49%">
-  <img src="img/tdr-dice-lab.jpg" alt="The Domed Realms: dice lab" width="49%">
+  <img src="img/tdr-battle-map.jpg" alt="The Domed Realms: battle map" width="99%">
 </p>
 
-The GM table, character sheet and guild scheme screenshots use demo data.
+<details>
+<summary>More screenshots</summary>
+<br>
+<p>
+  <img src="img/tdr-gm-table-player.jpg" alt="The Domed Realms: GM table, the player's view with a dice panel" width="99%">
+</p>
+<p>
+  <img src="img/tdr-world-map.jpg" alt="The Domed Realms: world map with pins" width="99%">
+</p>
+<p>
+  <img src="img/tdr-dice-lab.jpg" alt="The Domed Realms: dice simulator with formulas" width="49%">
+  <img src="img/tdr-guild-overview.jpg" alt="The Domed Realms: guild overview" width="49%">
+</p>
+<p>
+  <img src="img/tdr-wiki.jpg" alt="The Domed Realms: wiki article" width="49%">
+  <img src="img/tdr-handbook.jpg" alt="The Domed Realms: rulebook in the app" width="49%">
+</p>
+<p>
+  <img src="img/tdr-sheet-search.jpg" alt="The Domed Realms: search inside a character sheet" width="49%">
+</p>
+</details>
 
 ### Discord bots: Kokona, Rosmontis and Si
 
