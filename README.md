@@ -1,4 +1,4 @@
-### Full-stack developer · Laravel · React · AI
+### Full-stack developer · Laravel · React · Angular · Node · PHP · AI
 
 Hi, I'm Jakub. At work I write PHP (Laravel, Yii2) and Angular, mostly e-contract, recruitment and appointment booking systems. After hours I build things I use myself: a platform for my RPG campaigns, Discord bots for communities I'm in, and a few smaller tools.
 
